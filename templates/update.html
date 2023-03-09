@@ -1,0 +1,16 @@
+<style>
+		h3 { font-weight: 300; font-size: 38px; margin: 0px 0px 0px 0px; line-height: 120%; font-family: 'Open sans', sans-serif; }
+
+</style>
+
+<div class="center-column">
+<h3>Update Task</h3>
+
+<form method="POST" action="">
+	{% csrf_token %}
+	{{form}}
+	<input type="submit" name="Update Task">
+
+
+</form>
+</div>
